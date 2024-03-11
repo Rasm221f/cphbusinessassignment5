@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="166af2f0-51f8-48a2-a8c6-dc19f375648f" name="Changes" comment="" />
+    <list default="true" id="166af2f0-51f8-48a2-a8c6-dc19f375648f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Veterinarian_exercise/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Veterinarian_exercise/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Veterinarian_exercise/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Veterinarian_exercise/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Veterinarian_exercise/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Veterinarian_exercise/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise2/src/main/java/dao/AbstractDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise2/src/main/java/dao/HotelDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise2/src/main/java/dao/IDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise2/src/main/java/dao/RoomDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise2/src/main/java/handlers/HotelHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise2/src/main/java/handlers/RoomHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise2/src/main/java/model/Hotel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise2/src/main/java/model/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../exercise2/src/main/java/util/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../exercise2/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../exercise2/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,9 +34,12 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2c6IxtLz2NhkkVnn8vd0UclRrHc" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -29,6 +49,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -55,6 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707425854916</updated>
       <workItem from="1707425856299" duration="1602000" />
+      <workItem from="1710167488999" duration="18000" />
     </task>
     <servers />
   </component>
