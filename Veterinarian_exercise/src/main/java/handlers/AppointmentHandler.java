@@ -1,23 +1,32 @@
 package handlers;
 
 import datastore.DataStore;
+import dto.AppointmentDTO;
 import io.javalin.http.Handler;
-import static io.javalin.apibuilder.ApiBuilder.get;
-import static io.javalin.apibuilder.ApiBuilder.path;
+
+import java.util.stream.Collectors;
+
+
 
 
 public class AppointmentHandler {
 
     public static Handler getAllAppointments = ctx -> {
-        ctx.json(DataStore.appointments);
+        var appointmentDTOs = DataStore.appointments.stream()
+                .map(appointment -> new AppointmentDTO(
+                        appointment.getId(),
+                        appointment.getDate(),
+                        appointment.getPatientId(),
+                        appointment.getReason()))
+                .collect(Collectors.toList());
+        ctx.json(appointmentDTOs);
     };
-
     public static Handler getAppointmentById = ctx -> {
-        // This logic needs to be inside the handler for getting an appointment by ID
         String id = ctx.pathParam("appointmentId");
         var appointment = DataStore.appointments.stream()
                 .filter(a -> a.getId().equals(id))
                 .findFirst()
+                .map(a -> new AppointmentDTO(a.getId(), a.getDate(), a.getPatientId(), a.getReason()))
                 .orElse(null);
 
         if (appointment != null) {

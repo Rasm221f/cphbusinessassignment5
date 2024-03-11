@@ -1,5 +1,15 @@
 package dto;
 
+import lombok.*;
+
+@Getter
+@Setter
+@RequiredArgsConstructor
+@NoArgsConstructor
+@AllArgsConstructor
+
 public class PatientDTO {
-    // Patient properties
+    private String id;
+    private String name;
+    private String species;
 }
